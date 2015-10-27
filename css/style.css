@@ -1,4 +1,80 @@
 body {
 	font-family: sans-serif;
 	line-height: 1.4;
+	width: 1024px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background: black;
+	height: 60px;
+}
+
+.header * {
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+}
+
+.header-title {
+	font-size: xx-large;
+}
+
+.header-title img {
+	height: 60px;
+}
+
+.hero img {
+	width: 1024px;
+	height: 450px;
+}
+
+.header-links {
+	float: right;
+	margin: 8px;
+}
+
+.header-links a {
+	margin: 10px;
+}
+
+.section {
+	text-align: center;
+	margin: 30px;
+}
+
+.section2 {
+	text-align: center;
+	margin: 30px 5px;
+}
+
+.news-title {
+	font-size: 30px;
+}
+
+.news-subtitle {
+	font-size: 20px;
+	margin: 15px;
+}
+
+.p-text {
+	font-size: 13px;
+	color: #83838f;
+	margin: 5px;
+}
+
+.display-item {
+	display: inline-block;
+	width: 33%;
+}
+
+.display-item img {
+	width: 100%;
+}
+
+.display-title {
+	margin: 10px 0px 10px 0px;
 }
