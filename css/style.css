@@ -76,5 +76,30 @@ a {
 }
 
 .display-title {
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0 10px 0;
+}
+
+.footer {
+	background: black;
+	height: 100px;
+}
+
+.footer * {
+	vertical-align: middle;
+	color: white;
+}
+
+.copyright {
+	text-align: center;
+	margin: 10px;
+}
+
+.footer-links {
+	margin-left: 150px;
+}
+
+.footer-links a {
+	display: inline-block;
+	margin: 8px;
+	float: left;
 }
